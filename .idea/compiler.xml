@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo-service-impl" />
+        <module name="demo-dao-api" />
+        <module name="demo-web" />
+        <module name="demo-common" />
+        <module name="demo-dao-impl" />
+        <module name="demo-service-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-demo" target="1.8" />
+      <module name="demo-common" target="1.8" />
+      <module name="demo-dao-api" target="1.8" />
+      <module name="demo-dao-impl" target="1.8" />
+      <module name="demo-service-api" target="1.8" />
+      <module name="demo-service-impl" target="1.8" />
+      <module name="demo-web" target="1.8" />
+      <module name="democommon" target="1.8" />
+      <module name="demoserviceapi" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common-demo" options="-parameters" />
+      <module name="demo-common" options="-parameters" />
+      <module name="demo-dao-api" options="-parameters" />
+      <module name="demo-dao-impl" options="-parameters" />
+      <module name="demo-service-api" options="-parameters" />
+      <module name="demo-service-impl" options="-parameters" />
+      <module name="demo-web" options="-parameters" />
+      <module name="democommon" options="-parameters" />
+      <module name="demoserviceapi" options="-parameters" />
+    </option>
+  </component>
+</project>
