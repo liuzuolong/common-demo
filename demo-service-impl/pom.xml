@@ -23,6 +23,11 @@
             <artifactId>demo-dao-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.humous.gp</groupId>
+            <artifactId>demo-service-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 
